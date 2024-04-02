@@ -1,0 +1,52 @@
+---
+title: "Dataset on Holocaust victims killed at Auschwitz Concentration Camp"
+subtitle: "Mini Essay 12: Shiny"
+author: 
+  - Sarah Lee
+thanks: "Code and data are available at: https://github.com/sarahhhh02/mini-essay-12.git"
+date: today
+date-format: long
+format: pdf
+number-sections: true
+bibliography: references.bib
+---
+
+# Introduction
+
+The Holocaust stands as one of the most tragic historical event, marking a genocide of millions of innocent people, primarily targeting Jewish people. However, Jews were not the only group that was suffering, many other ethnic groups took a toll. The Nazi's created extermination camps that kept many people as prisoners. Among the many camps that exited, in this paper, we will focus on the Auschwitz concentration camp, concentrating on the ethnic origins and number of Holocaust victims killed at this camp.
+
+We shall first obtain a data set that contains various nationalities/categories of individuals who were killed at Auschwitz concentration camp. Ultimately, we want to create a an interactive graph and table of this data set through utilizing `shiny` a web application framework in R. With this, we should be able visualize and allow users to specify the groups in interest from the data.
+
+Once the visualizations are created, we will delve into a critical analysis of our work drawn from themes from the article "We Still Can't See American Slavery for What It Is" from New York Times [@bouie2022].
+
+# Data
+
+Data on various nationalities/categories of individuals who were killed at Auschwitz concentration camp is retrieved from Statista, "Estimated Number of deportees and deaths at the Auschwitz concentration camp complex during the Holocaust 1941-1945, by background" [@statista_webpage]. They have retrieved all their data from from the Memorial and Museum: Auschwitz-Birkenau [@auschwitz_webpage] that shows the number of deportees by ethnicity given the columns of ethnicity/category and number. From [@statista_webpage], I have downloaded the csv. file and manually deleted information that was irrelevant to the paper. In this data, we are given the nationality groups Jews, Poles, Romani people, Soviet Prisoners of War, and others with their estimated number of deaths.
+
+Below is the link to the interactive `shiny` app on Holocaust Victims at Auschwitz Concentration Camp:
+
+\<<https://posit.cloud/content/7924034>\>
+
+# Discussion
+
+## Bouie (2022)
+
+The article on "We Still Can't See American Slavery for What It Is" [@bouie2022] demonstrates themes related to the study and representation of trans-Atlantic slave trade and the ethical challenges of historical research. The major themes discussed in this article revolved the significance of portraying sensitive topics into documentation and analyzing it. Overall, the article raises important themes related to ethical challenges of historical research, the role of public engagement, and to humanize historical narratives. All of whichresonate with a broader discussions within academia regarding responsibilities of researchers and the complexities of studying traumatic history.
+
+## Bouie (2022) and Dataset
+
+Whilst developing the visualization through the web application `shiny` of the data on the victims of Auschwitz, we can relate several of the discussed themes from "We Still Can't See American Slavery for What It Is" [@bouie2022]. Both the data in this paper and the article resonate with traumatic history, hence allowing for further analysis of the data and ethical considerations. This discussion will further bring us to kindle with how the themes of ethical responsibility and considerations in historical research influence the development of the `shiny` app.
+
+One central theme in the article is of the ethical responsibility of researchers when studying a sensitive topic, in their case the trans-Atlantic slave trade. Bouie discusses how researchers have to consider the implications of their work to approach historical research with sensitivity and humility. He brings attention to how the study of traumatic history can bring ethical dilemmas to the public, specifically individuals who are affected by it. Hence researchers must study these kinds of data with a deep sense of empathy, care and respect for the subject of their study. So, while developing the `shiny` app, the visualizations of data on victims of the Holocaust must be carefully presented to prevent misinterpretation of the data. It is important to avoid objectification and dehumanization in the research process and sympathize the human experience behind statistics. For example, as much as the app provides interactive and tables to explore the number of deaths by background, it is also important to provide contextual information. Providing insight on the historical background on Holocaust and acknowledging their suffering. Furthermore, transparency and accountability of how the data is sourced, processes, and displayed are just as important. Working on the `shiny` app, it was crucial to acknowledge the complexities of the history behind the Holocaust, so elaborating on where the data is retrieved from can somewhat explain the context and background of what the research is about. To illustrate, in the previous section on Data, I did not fail to mention where the data was retrieved and even included its primary source from the Memorial and Museum that brings empathy and respect to the table. However, it is also important to acknowledge the complexities the Holocaust data comes with as it issues incomplete records, and does not fully resonate with the human suffering.
+
+In addition to this themes, another theme that was brought up was the importance of humanizing historical narratives by focusing on the experiences of individuals affected by history. Bouie challenges researcher to move beyond absratct statistics and engage with the experience of those impacted by slavery. He empasizes the role of digital humanities projects, such as the "SlaveVoyages" database making historical research accessible to the public. Mentioning the how interactive visualizations and online platforms impact fostering public engagement with the history of slavery. Similarity, whilst developing the `shiny` app, the goal is not to visualize data but the humanize with the victims of the Holocaust. Interactive features in the `shiny` app provides users to explore the diversity of victims of Auschwitz, including Jews, Poles, Roma/Sinti, Soviet POWs, and others. By this, the app seeks to personalize data and highlight individual stories behind statistics. If not enough research is done, one may assume the Holocaust only involves Jewish victims, however, with further context, we are able to come across other ethnic origins who have been affected. Hence acknowledging and being inclusive in the data. Moreover, the app gives an opportunity by centering the voices of those who were directly impacted by the Holocaust, becoming a toll for commemoration, education and remembrance.
+
+Based on the themes discussed in Bouie's article, the development of the `shiny` app visualizing data on the victims of Auschwitz is deeply influenced. We come to learn the approach these kinds of historical data with sensitivity and respect for the victims of the Holocaust while also providing users with meaningful educational experience.
+
+# Conclusion
+
+In conclusion, the development of the interactive `shiny` app is not merely a technical process but is deeply connected to ethical and humanism. Drawing inspiration from the themes discussed in Bouie's (2022) article, the project has been guided by principles of ethical responsibility in historical research and the humanization of historical narratives. By acknowledging the profound tragedy and trauma of the Holocaust, the `shiny` app seeks to present the data on Auschwitz victims in a manner that respects their humanity and honors their memory. Transparency, accountability, and contextualization are essential aspects of the app's development that ensure users to engage with data with a deep sense of empathy and understanding.
+
+\newpage
+
+# References
